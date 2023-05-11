@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <titl>your page</titl>
+</head>
+<body>
+hi {{ user_name }},this is your age {{ user_age }}
+{% for i in range (0,age) %}
+    {% for age % i == 0  %}
+         <p>{{ i }}</p>
+    {% endif %}
+{% endfor %}
+</body>
+</html>
